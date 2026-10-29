@@ -98,9 +98,10 @@ Replace both occurrences of `PASSWORD` with a strong password of your choice.
 
 :::info
 The password must be a strong password:
+
 - A minimum of 8 characters
 - Must include Uppercase letters, lowercase letters, numbers and symbols
-:::
+  :::
 
 :::info
 The passwords in `DATABASE_URL` and `MSSQL_SA_PASSWORD` **must match**. SQL Server uses `MSSQL_SA_PASSWORD` to configure the `sa` login, while Prisma uses the credentials in `DATABASE_URL` to connect to the database.
@@ -183,7 +184,6 @@ When the command completes successfully, your database should be ready to explor
 The seed script may not be safe to run repeatedly against an already populated database. If you encounter duplicate-key errors, it might mean the database is already populated with the seed data.
 :::
 
-
 ## Verify Your Setup
 
 Let's confirm that the database is accessible and that the sample data was inserted successfully.
@@ -194,12 +194,12 @@ Open SQL Server Management Studio (SSMS).
 
 In the **Connect to Server** dialog, enter the following details:
 
-| Setting | Value |
-|---|---|
-| Server name | `localhost` |
-| Authentication | Select `SQL Server Authentication` |
-| Login | `sa` |
-| Password | The password you configured in Step 4 |
+| Setting        | Value                                 |
+| -------------- | ------------------------------------- |
+| Server name    | `localhost`                           |
+| Authentication | Select `SQL Server Authentication`    |
+| Login          | `sa`                                  |
+| Password       | The password you configured in Step 4 |
 
 Under the connection options, enable **Trust server certificate**.
 

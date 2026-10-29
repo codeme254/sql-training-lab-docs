@@ -1,4 +1,5 @@
 # Basic SELECT
+
 1. Retrieve all columns and rows from the `products` table.
 
 2. A colleague needs a quick overview of the company's customers. Retrieve each customer's first name, last name, and email address.
@@ -40,6 +41,7 @@
 20. Prepare a product catalogue showing each product's name, selling price, and cost price. Include only products priced between 1,000 and 10,000, inclusive, and arrange them from lowest to highest selling price. If prices are equal, sort by product name in descending alphabetical order.
 
 ## Boss Challenge
+
 The inventory team needs a report to help them determine which products require immediate restocking and which are running low.
 
 Using the `inventory` table, write a query that returns exactly four columns:
