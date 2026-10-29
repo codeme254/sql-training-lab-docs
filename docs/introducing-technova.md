@@ -33,9 +33,6 @@ SELECT customer_id, first_name
 FROM customers;
 ```
 
-To inspect a table's structure at any time in `psql`, use `\d` followed by the table name, for example `\d products`. Use `\dt` to list all tables.
-
----
 
 # 1. categories
 
