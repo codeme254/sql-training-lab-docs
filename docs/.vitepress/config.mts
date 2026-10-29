@@ -4,7 +4,9 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "SQL Power Hour",
   description: "SQL Power Hour",
+  
   head: [["link", { rel: "icon", href: "/sql.png" }]],
+
   themeConfig: {
     sidebar: [
       {
